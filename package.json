@@ -1,0 +1,22 @@
+{
+  "name": "test-chinese",
+  "version": "0.1.0",
+  "description": "A tool to test whether a string is chinese (in)completely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chinese",
+    "中文检测"
+  ],
+  "author": "oGsLP",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0"
+  }
+}
