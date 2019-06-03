@@ -1,5 +1,6 @@
 docs
 node_modules
-.nyc_output
+test/.nyc_output
+test/output
 .esdoc.json
-
+.idea

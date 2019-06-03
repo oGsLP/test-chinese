@@ -25,7 +25,7 @@ testChinese(content,complete);
 ```javascript
 const testChinese = require("test-chinese");
 
-console.log(testChinese("张翔宇捞的一"，true)); // true
+console.log(testChinese("张翔宇捞的一",true)); // true
 console.log(testChinese("张翔宇x捞的一",true)); // false
 console.log(testChinese("zhangxiangyu捞deyi",false)); // true
 console.log(testChinese("张翔宇lao的一")); // true

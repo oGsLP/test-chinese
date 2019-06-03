@@ -1,0 +1,36 @@
+{
+    "all": true,
+    "include": [
+        "lib/**/*.js",
+        "index.js"
+    ],
+    "exclude": [
+        "**/test/**",
+        "**/node_modules/**"
+    ],
+    "report-dir": "test/coverage",
+    "reporter": [
+        "lcov","html","text","text-summary"
+    ],
+    "temp-dir": "test/.nyc_output"
+    ,
+    "check-coverage": true,
+    "watermarks": {
+        "lines": [
+            80,
+            95
+        ],
+        "functions": [
+            80,
+            95
+        ],
+        "branches": [
+            80,
+            95
+        ],
+        "statements": [
+            80,
+            95
+        ]
+    }
+}

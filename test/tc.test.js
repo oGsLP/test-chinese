@@ -1,5 +1,5 @@
 const assert = require("assert");
-const testChinese = require("./../lib/test-chinese");
+const testChinese = require("./../index");
 
 describe("#test-chinese",()=>{
     it("should be true",()=>{
