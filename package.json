@@ -1,6 +1,6 @@
 {
   "name": "test-chinese",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to test whether a string is chinese (in)completely",
   "main": "index.js",
   "scripts": {
